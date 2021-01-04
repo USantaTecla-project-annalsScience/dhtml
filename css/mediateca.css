@@ -1,0 +1,100 @@
+body {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin: 1px;
+    padding: 1px;
+}
+
+header h1 {
+    margin: 1px;
+    padding: 1px;
+}
+
+nav {
+    margin: 1px;
+    padding: 1px;
+    background-color: gray;
+    color: black;
+    font-size: 12;
+}
+
+nav * {
+    margin: 1px;
+    padding: 1px;
+}
+
+section.persons {
+    border: 1px;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+section.persons li {
+    list-style-type: none;
+}
+
+section.entities {
+    border: 1px;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+section.entities li {
+    list-style-type: none;
+}
+
+section.products {
+    border: 1px;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+section.products li {
+    list-style-type: none;
+}
+
+.person {    
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px black solid;
+}
+
+.data {
+    font-size: 24px;
+    width: 50%;
+    float: left;
+}
+
+.image {
+    width: 50%;
+    float: left;
+}
+
+.wiki {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.videos {
+    width: 100%;
+    float: left;
+}
+
+.videos li {
+    display: inline;
+}
